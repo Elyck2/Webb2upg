@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+.navbar ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin:0px 30px;
+    display: inline;
+}
+.navbar ul{
+    background-color:#92B6B1;
+    margin: 0 auto;
+    padding:3% 3%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold ;
+    font-size: 1.5em;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width:100%;
+    left:0;
+}
+
+.titel{
+ display:flex;
+ justify-content: center;
+ position: relative;
+ top:30%
+ 
+}
+.titel h1{ 
+    color: white;
+    font-size: 300%;
+}
+
+.banner{
+    width: 100%;  
+    height: 100vh;
+    background-color:#666A86;
+    background-size: cover;
+    background-position: center;
+}
+  
+
+  .kontaktI{
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;;
+  }
+    
+
+.kontaktI ul li{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 90%;
+    
+}
+.kontaktI ul{
+    background-color:#92B6B1;
+    margin: 0 auto;
+    padding:2% 3%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    list-style: none;
+}
+.text p{
+    color:white;
+    margin-bottom: 2%;
+
+}   
+.text{
+  height: 60%;  
+  overflow: auto;
+  margin-top:2%;
+  margin-left:5%;
+  width:40%;
+}
+
+.text a{
+    color:white;
+    font-weight: bold;
+}
+
+.bilder{
+    overflow: auto;
+    margin-left:50%;
+    margin-top:-29%;
+    right: 0;
+    width:30%;
+    height: 60%;
+    background-color: black;
+} 
+
+.bilder img{
+    width:15em;
+}   
